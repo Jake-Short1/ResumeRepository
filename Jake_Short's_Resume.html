@@ -3,242 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jake Short - Resume</title>
-    <style>
-        body {
-            font-family: "Georgia", "Times New Roman", Times, serif;
-            line-height: 1.4;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            font-size: 14px;
-        }
-
-        /* Header Styles */
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 26px;
-            margin: 0 0 5px 0;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .contact-info {
-            font-size: 13px;
-        }
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        /* Section Layouts */
-        section {
-            margin-top: 15px;
-            margin-bottom: 5px;
-        }
-        h2 {
-            font-size: 16px;
-            text-transform: uppercase;
-            border-bottom: 1px solid #333;
-            margin: 10px 0 8px 0;
-            padding-bottom: 2px;
-            letter-spacing: 0.5px;
-        }
-
-        /* Flex container for LaTeX \hfill functionality */
-        .flex-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 2px;
-        }
-        .entry-title {
-            font-weight: bold;
-        }
-        .entry-subtitle {
-            font-style: italic;
-        }
-        .entry-right {
-            text-align: right;
-            font-size: 13px;
-        }
-
-        /* Lists */
-        ul {
-            margin: 0 0 8px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 3px;
-        }
-        
-        /* Project spacing adjustment */
-        .project-list li {
-            margin-bottom: 8px;
-        }
-    </style>
+    <title>Jake Short - Printable Resume</title>
+    <link href="Jake_Short's_Resume.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Jake Short</h1>
-        <div class="contact-info">
-            Poughquag, NY, 12570 &bull; 
-            <a href="mailto:jakershort@gmail.com">jakershort@gmail.com</a> &bull; 
-            845-803-4271
-        </div>
-    </header>
+    <!-- Paper Sheet Container -->
+    <div class="page">
 
-    <!-- Education Section -->
-    <section>
-        <h2>Education</h2>
-        
-        <div style="margin-bottom: 10px;">
-            <div class="flex-row">
-                <span class="entry-title">Rensselaer Polytechnic Institute</span>
-                <span class="entry-right">Troy, NY</span>
+        <!-- Header Section -->
+        <header>
+            <h1>Jake Short</h1>
+            <div class="contact-info">
+                Poughquag, NY, 12570 &bull; 
+                <a href="mailto:jakershort@gmail.com">jakershort@gmail.com</a> &bull; 
+                845-803-4271
             </div>
-            <div class="flex-row">
-                <span>BS in Information Technology and Web Science (ITWS)</span>
-                <span class="entry-right">August 2026 -- May 2028</span>
-            </div>
-            <ul>
-                <li><strong>Honors/Awards:</strong> Rensselaer Leadership Award &amp; Rensselaer Recognition Award</li>
-                <li><strong>Activities:</strong> RPISEC Member, Club Tennis</li>
-            </ul>
-        </div>
+        </header>
 
-        <div>
-            <div class="flex-row">
-                <span class="entry-title">University of Hartford</span>
-                <span class="entry-right">Hartford, CT</span>
-            </div>
-            <div class="flex-row">
-                <span>Major: Computer Science &amp; Engineering</span>
-                <span class="entry-right">August 2024 -- May 2026</span>
-            </div>
-            <div class="flex-row" style="font-size: 14px; margin-top: -2px;">
-                <span>Minor: Cybersecurity &amp; Mathematics</span>
-                <span></span>
-            </div>
-            <ul>
-                <li><strong>Honors/Awards:</strong> Honors Program &amp; Presidential Scholar &bull; <strong>GPA:</strong> 3.85</li>
-                <li><strong>Leadership:</strong> 2025 Varsity Tennis Captain &bull; 2025 Hawks AD Leadership Academy</li>
-                <li><strong>Activities:</strong> Pickleball Club &bull; 2025 Student Athlete Advisory Committee (SAAC)</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section>
-        <h2>Work Experience</h2>
-
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Hudson Valley Pickleball &amp; Golf Center</span> -- <span class="entry-subtitle">Pickleball Instructor</span></span>
-                <span class="entry-right">Poughkeepsie, NY</span>
-            </div>
-            <ul>
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            
+            <div class="entry-block">
                 <div class="flex-row">
-                    <li>Taught pickleball to youth ages 5--14, organizing engaging activities while ensuring safety.</li>
-                    <span class="entry-right">Summer 2026</span>
+                    <span class="entry-title">Rensselaer Polytechnic Institute</span>
+                    <span class="entry-right">Troy, NY</span>
                 </div>
-            </ul>
-        </div>
-
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Mcgraph Management -- Dalton Farm</span> -- <span class="entry-subtitle">Pool Attendant</span></span>
-                <span class="entry-right">Poughquag, NY</span>
-            </div>
-            <ul>
                 <div class="flex-row">
-                    <li>Maintained a safe pool environment and monitored/balanced chlorine and pH levels.</li>
-                    <span class="entry-right">Summer 2026</span>
+                    <span class="entry-subtitle">BS in Information Technology and Web Science (ITWS)</span>
+                    <span class="entry-right">August 2026 - May 2028</span>
                 </div>
-            </ul>
-        </div>
-
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Glastonbury Parks and Recreation</span> -- <span class="entry-subtitle">Tennis Instructor</span></span>
-                <span class="entry-right">Glastonbury, CT</span>
+                <ul>
+                    <li><strong>Honors/Awards:</strong> Rensselaer Leadership Award &amp; Rensselaer Recognition Award</li>
+                    <li><strong>Activities:</strong> RPISEC Member, Club Tennis</li>
+                </ul>
             </div>
-            <ul>
-                <div class="flex-row">
-                    <li>Provided tailored tennis lessons and skill instruction to players of all ages.</li>
-                    <span class="entry-right">Fall 2025</span>
-                </div>
-            </ul>
-        </div>
 
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Melzingah Tap House</span> -- <span class="entry-subtitle">Busser / Dishwasher / Host</span></span>
-                <span class="entry-right">Beacon, NY</span>
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span class="entry-title">University of Hartford</span>
+                    <span class="entry-right">Hartford, CT</span>
+                </div>
+                <div class="flex-row">
+                    <span class="entry-subtitle">Major: Computer Science &amp; Engineering (Minor: Cybersecurity &amp; Mathematics)</span>
+                    <span class="entry-right">August 2024 - May 2026</span>
+                </div>
+                <ul>
+                    <li><strong>Honors/Awards:</strong> Honors Program &amp; Presidential Scholar &bull; <strong>GPA:</strong> 3.85</li>
+                    <li><strong>Leadership:</strong> 2025 Varsity Tennis Captain &bull; 2025 Hawks AD Leadership Academy</li>
+                    <li><strong>Activities:</strong> Pickleball Club &bull; 2025 Student Athlete Advisory Committee (SAAC)</li>
+                </ul>
             </div>
-            <ul>
-                <div class="flex-row">
-                    <li>Managed front and back-of-house tasks including bussing, hosting, and dishwashing.</li>
-                    <span class="entry-right">Summer 2025</span>
-                </div>
-            </ul>
-        </div>
+        </section>
 
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Taconic Sport and Racquet Day Camp</span> -- <span class="entry-subtitle">Camp Counselor</span></span>
-                <span class="entry-right">Hopewell Junction, NY</span>
+        <!-- Experience Section -->
+        <section>
+            <h2>Work Experience</h2>
+
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span><span class="entry-title">Hudson Valley Pickleball &amp; Golf Center</span> - <span class="entry-subtitle">Pickleball Instructor</span></span>
+                    <span class="entry-right">Poughkeepsie, NY</span>
+                </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Taught pickleball to youth ages 5-14, organizing engaging activities while ensuring safety.</li>
+                        <span class="entry-right">Summer 2026</span>
+                    </div>
+                </ul>
             </div>
-            <ul>
-                <div class="flex-row">
-                    <li>Supervised and ensured the safety of campers aged 4--14; led recreational activities.</li>
-                    <span class="entry-right">Summer 2021 -- Summer 2024</span>
-                </div>
-            </ul>
-        </div>
 
-        <div>
-            <div class="flex-row">
-                <span><span class="entry-title">Dalton Farm Snow Shoveling</span> -- <span class="entry-subtitle">Business Owner</span></span>
-                <span class="entry-right">Poughquag, NY</span>
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span><span class="entry-title">Mcgraph Management -- Dalton Farm</span> -- <span class="entry-subtitle">Pool Attendant</span></span>
+                    <span class="entry-right">Poughquag, NY</span>
+                </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Maintained a safe pool environment and monitored/balanced chlorine and pH levels.</li>
+                        <span class="entry-right">Summer 2026</span>
+                    </div>
+                </ul>
             </div>
-            <ul>
+
+            <div class="entry-block">
                 <div class="flex-row">
-                    <li>Founded and managed operations, kept track of clients, and cleared driveways.</li>
-                    <span class="entry-right">Winter 2023</span>
+                    <span><span class="entry-title">Glastonbury Parks and Recreation</span> - <span class="entry-subtitle">Tennis Instructor</span></span>
+                    <span class="entry-right">Glastonbury, CT</span>
                 </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Provided tailored tennis lessons and skill instruction to players of all ages.</li>
+                        <span class="entry-right">Fall 2025</span>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span><span class="entry-title">Melzingah Tap House</span> - <span class="entry-subtitle">Busser / Dishwasher / Host</span></span>
+                    <span class="entry-right">Beacon, NY</span>
+                </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Managed front and back-of-house tasks including bussing, hosting, and dishwashing.</li>
+                        <span class="entry-right">Summer 2025</span>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span><span class="entry-title">Taconic Sport and Racquet Day Camp</span> - <span class="entry-subtitle">Camp Counselor</span></span>
+                    <span class="entry-right">Hopewell Junction, NY</span>
+                </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Supervised and ensured the safety of campers aged 4-14; led recreational activities.</li>
+                        <span class="entry-right">Summer 2021 - Summer 2024</span>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="entry-block">
+                <div class="flex-row">
+                    <span><span class="entry-title">Dalton Farm Snow Shoveling</span> - <span class="entry-subtitle">Business Owner</span></span>
+                    <span class="entry-right">Poughquag, NY</span>
+                </div>
+                <ul>
+                    <div class="flex-row">
+                        <li>Founded and managed operations, kept track of clients, and cleared driveways.</li>
+                        <span class="entry-right">Winter 2023</span>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li><strong>Personal Website (Ongoing):</strong> Designing and deploying a portfolio site to showcase engineering projects.</li>
+                <li><strong>Wireshark Feature Integration (Ongoing):</strong> Analyzing packet streams and expanding telemetry implementations.</li>
+                <li><strong>University Management System:</strong> Developed a Java console application utilizing core OOP principles like inheritance and polymorphism to model university personnel. Designed a centralized management module to handle student and faculty records while dynamically calculating GPAs and salaries. Implemented robust exception handling and automated logging to ensure system stability and track runtime events.</li>
+                <li><strong>File Directory Analyzer and Report Generator:</strong> Built a Java application that uses recursive algorithms to scan user-specified directories and capture file metadata. Leveraged the Java Collections Framework to parse data and calculate file distribution statistics by extension and size. Engineered an export module to save the generated reports into TXT, CSV, and JSON formats while generating persistent operational logs.</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section>
-        <h2>Projects</h2>
-        <ul class="project-list">
-            <li><strong>Personal Website (Ongoing):</strong> Designing and deploying a portfolio site to showcase engineering projects.</li>
-            <li><strong>Wireshark Feature Integration (Ongoing):</strong> Analyzing packet streams and expanding telemetry implementations.</li>
-            <li><strong>Developed a Java console application</strong> utilizing core OOP principles like inheritance and polymorphism to model university personnel. Designed a centralized management module to handle student and faculty records while dynamically calculating GPAs and salaries. <strong>Implemented robust exception handling and automated logging</strong> to ensure system stability and track runtime events.</li>
-            <li><strong>Built a Java application</strong> that uses recursive algorithms to scan user-specified directories and capture file metadata. Leveraged the Java Collections Framework to parse data and calculate file distribution statistics by extension and size. <strong>Engineered an export module</strong> to save the generated reports into TXT, CSV, and JSON formats while generating persistent operational logs.</li>
-        </ul>
-    </section>
+        <!-- Skills Section -->
+        <section>
+            <h2>Skills &amp; Interests</h2>
+            <ul class="skills-list">
+                <li><strong>Technical Skills:</strong> Java, Python, C++, ARM Assembly, Arm Architecture, HTML/CSS, GitHub, OSI Model, Cisco Packet Tracer, MQTT, Wireshark</li>
+                <li><strong>Languages:</strong> Spanish (Classroom study)</li>
+                <li><strong>Interests:</strong> Gym, tennis, pickleball, networks/cybersecurity, skiing, hiking, reading, piano, ping pong</li>
+            </ul>
+        </section>
 
-    <!-- Skills Section -->
-    <section>
-        <h2>Skills &amp; Interests</h2>
-        <ul>
-            <li><strong>Technical Skills:</strong> Java, Python, C++, ARM Assembly, Arm Architecture, HTML/CSS, GitHub, OSI Model, Cisco Packet Tracer, MQTT, Wireshark</li>
-            <li><strong>Languages:</strong> Spanish (Classroom study)</li>
-            <li><strong>Interests:</strong> Gym, tennis, pickleball, networks/cybersecurity, skiing, hiking, reading, piano, ping pong</li>
-        </ul>
-    </section>
+    </div>
 
 </body>
 </html>
